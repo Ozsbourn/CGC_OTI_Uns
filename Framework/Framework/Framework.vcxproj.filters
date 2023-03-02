@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{cb826ccd-6787-4936-9e8f-f624cbc24469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{cb04e64f-b830-4611-a197-77543d9c2ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{1f186a65-92b8-483f-a094-00e35261ea29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{98c81539-6d1e-4ed2-a6b5-d79d150021d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4aec0488-4e6b-4ea3-98af-2cc5e182a01d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCodes.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputListener.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowHandler.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="CGF.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowHandler.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="IRender.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
