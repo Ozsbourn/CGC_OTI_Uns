@@ -6,8 +6,8 @@
 #include "Log.hpp"
 
 namespace FRMWRK {
-	#define LOG_FILE "log.txt"
-	// Макрос используется для более удобного получения даты и времени при логгировании
+	#define LOG_FILE "LogFile.log"
+	// РњР°РєСЂРѕСЃ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РґР»СЏ Р±РѕР»РµРµ СѓРґРѕР±РЅРѕРіРѕ РїРѕР»СѓС‡РµРЅРёСЏ РґР°С‚С‹ Рё РІСЂРµРјРµРЅРё РїСЂРё Р»РѕРіРіРёСЂРѕРІР°РЅРёРё
 	#define __FRMWRK_INIT_DATEANDTIME__  char time[0x9]; \
 										 _strtime_s(time, 0x9); \
 										 char date[0x9];  \
